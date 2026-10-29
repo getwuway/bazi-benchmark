@@ -4,6 +4,7 @@
 [![pillars](https://img.shields.io/badge/pillars-30%2F30-brightgreen.svg)](https://getwuway.com/tests)
 [![code MIT](https://img.shields.io/badge/code-MIT-blue.svg)](./LICENSE)
 [![data CC BY 4.0](https://img.shields.io/badge/data-CC--BY%204.0-lightgrey.svg)](./LICENSE-DATA)
+[![harness](https://github.com/getwuway/bazi-benchmark/actions/workflows/test.yml/badge.svg)](https://github.com/getwuway/bazi-benchmark/actions/workflows/test.yml)
 
 A small, reproducible test set for Four Pillars (BaZi / 八字) chart calculation.
 Thirty birth moments with the four pillars, the true solar time each chart was
