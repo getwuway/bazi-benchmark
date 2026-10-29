@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use these reference charts, cite them as below."
+title: "BaZi reference charts: 30 charts with locked expected values"
+abstract: "Thirty birth moments with the four pillars (BaZi / Four Pillars), the true solar time each chart was built from, and element weights, with every expected value cross-checked by a second implementation that shares no code with the first."
+authors:
+  - family-names: "WuWay"
+    name: "WuWay"
+    website: "https://getwuway.com"
+date-released: "2026-10-20"
+version: "1.0.0"
+license: MIT
+license-url: "https://github.com/getwuway/bazi-benchmark/blob/main/LICENSE"
+repository-code: "https://github.com/getwuway/bazi-benchmark"
+url: "https://getwuway.com/benchmark"
+keywords:
+  - bazi
+  - four pillars
+  - chinese astrology
+  - reference data
+  - test vectors

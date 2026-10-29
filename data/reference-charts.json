@@ -1,0 +1,1937 @@
+{
+  "$schema": "./schema.md",
+  "title": "BaZi reference charts with locked expected values",
+  "generated": "2026-10-20",
+  "day_boundary": "zi-hour: the day pillar advances at 23:00 local true solar time (sect 1)",
+  "true_solar_time": "longitude correction (4 min per degree from the standard meridian) plus equation of time",
+  "element_weights": {
+    "stem": 1,
+    "branch": 0.8,
+    "hiddenStem": 0.3
+  },
+  "element_tolerance_points": 0.6,
+  "year_month_frame": "absolute instant (UTC), because solar terms are global events",
+  "count": 30,
+  "results": [
+    {
+      "id": 1,
+      "note": "EDT (DST active)",
+      "input": {
+        "local_datetime": "1990-05-20T14:30:00",
+        "city": "New York City",
+        "country": "United States",
+        "admin1": "New York",
+        "latitude": 40.7143,
+        "longitude": -74.006,
+        "timezone": "America/New_York"
+      },
+      "true_solar_time": "1990-05-20 13:37",
+      "correction": {
+        "dst_offset_minutes": 60,
+        "standard_offset_hours": -5,
+        "meridian_longitude": -75,
+        "equation_of_time_minutes": 3.79,
+        "longitude_shift_minutes": 3.98,
+        "total_shift_minutes": 7.76
+      },
+      "expected": {
+        "pillars": {
+          "year": "庚午",
+          "month": "辛巳",
+          "day": "乙酉",
+          "hour": "癸未"
+        },
+        "elements": {
+          "wood": 13.1,
+          "fire": 25.3,
+          "earth": 17.2,
+          "metal": 34.3,
+          "water": 10.1
+        },
+        "core": "wood",
+        "anchor": "water",
+        "dominant": "metal",
+        "energy_state": "depleted"
+      },
+      "engine_output": {
+        "year": "庚午",
+        "month": "辛巳",
+        "day": "乙酉",
+        "hour": "癸未"
+      },
+      "independent_output": {
+        "year": "庚午",
+        "month": "辛巳",
+        "day": "乙酉",
+        "hour": "癸未"
+      },
+      "independent_method": "JDN day pillar + Meeus apparent solar longitude + 五虎遁/五鼠遁",
+      "governing_solar_term": {
+        "name": "Lixia",
+        "at_utc8": "1990-05-05T18:32:33.184Z",
+        "solar_year": 1990
+      },
+      "pass": {
+        "pillars": true,
+        "independent": true,
+        "elements": true
+      }
+    },
+    {
+      "id": 2,
+      "note": "EST (DST inactive)",
+      "input": {
+        "local_datetime": "1990-01-20T14:30:00",
+        "city": "New York City",
+        "country": "United States",
+        "admin1": "New York",
+        "latitude": 40.7143,
+        "longitude": -74.006,
+        "timezone": "America/New_York"
+      },
+      "true_solar_time": "1990-01-20 14:23",
+      "correction": {
+        "dst_offset_minutes": 0,
+        "standard_offset_hours": -5,
+        "meridian_longitude": -75,
+        "equation_of_time_minutes": -10.33,
+        "longitude_shift_minutes": 3.98,
+        "total_shift_minutes": -6.35
+      },
+      "expected": {
+        "pillars": {
+          "year": "己巳",
+          "month": "丁丑",
+          "day": "乙酉",
+          "hour": "癸未"
+        },
+        "elements": {
+          "wood": 12.7,
+          "fire": 23.5,
+          "earth": 34.3,
+          "metal": 16.7,
+          "water": 12.7
+        },
+        "core": "wood",
+        "anchor": "water",
+        "dominant": "earth",
+        "energy_state": "depleted"
+      },
+      "engine_output": {
+        "year": "己巳",
+        "month": "丁丑",
+        "day": "乙酉",
+        "hour": "癸未"
+      },
+      "independent_output": {
+        "year": "己巳",
+        "month": "丁丑",
+        "day": "乙酉",
+        "hour": "癸未"
+      },
+      "independent_method": "JDN day pillar + Meeus apparent solar longitude + 五虎遁/五鼠遁",
+      "governing_solar_term": {
+        "name": "Xiaohan",
+        "at_utc8": "1990-01-05T14:31:37.837Z",
+        "solar_year": 1989
+      },
+      "pass": {
+        "pillars": true,
+        "independent": true,
+        "elements": true
+      }
+    },
+    {
+      "id": 3,
+      "note": "EDT, late-Rat hour",
+      "input": {
+        "local_datetime": "2023-07-01T23:30:00",
+        "city": "New York City",
+        "country": "United States",
+        "admin1": "New York",
+        "latitude": 40.7143,
+        "longitude": -74.006,
+        "timezone": "America/New_York"
+      },
+      "true_solar_time": "2023-07-01 22:30",
+      "correction": {
+        "dst_offset_minutes": 60,
+        "standard_offset_hours": -5,
+        "meridian_longitude": -75,
+        "equation_of_time_minutes": -3.55,
+        "longitude_shift_minutes": 3.98,
+        "total_shift_minutes": 0.43
+      },
+      "expected": {
+        "pillars": {
+          "year": "癸卯",
+          "month": "戊午",
+          "day": "庚申",
+          "hour": "丁亥"
+        },
+        "elements": {
+          "wood": 14.6,
+          "fire": 21.9,
+          "earth": 16.7,
+          "metal": 21.9,
+          "water": 25
+        },
+        "core": "metal",
+        "anchor": "earth",
+        "dominant": "water",
+        "energy_state": "depleted"
+      },
+      "engine_output": {
+        "year": "癸卯",
+        "month": "戊午",
+        "day": "庚申",
+        "hour": "丁亥"
+      },
+      "independent_output": {
+        "year": "癸卯",
+        "month": "戊午",
+        "day": "庚申",
+        "hour": "丁亥"
+      },
+      "independent_method": "JDN day pillar + Meeus apparent solar longitude + 五虎遁/五鼠遁",
+      "governing_solar_term": {
+        "name": "Mangzhong",
+        "at_utc8": "2023-06-05T22:20:28.167Z",
+        "solar_year": 2023
+      },
+      "pass": {
+        "pillars": true,
+        "independent": true,
+        "elements": true
+      }
+    },
+    {
+      "id": 4,
+      "note": "EST, new year",
+      "input": {
+        "local_datetime": "2023-01-01T06:15:00",
+        "city": "New York City",
+        "country": "United States",
+        "admin1": "New York",
+        "latitude": 40.7143,
+        "longitude": -74.006,
+        "timezone": "America/New_York"
+      },
+      "true_solar_time": "2023-01-01 06:16",
+      "correction": {
+        "dst_offset_minutes": 0,
+        "standard_offset_hours": -5,
+        "meridian_longitude": -75,
+        "equation_of_time_minutes": -2.8,
+        "longitude_shift_minutes": 3.98,
+        "total_shift_minutes": 1.18
+      },
+      "expected": {
+        "pillars": {
+          "year": "壬寅",
+          "month": "壬子",
+          "day": "己未",
+          "hour": "丁卯"
+        },
+        "elements": {
+          "wood": 26,
+          "fire": 16.7,
+          "earth": 25,
+          "metal": 0,
+          "water": 32.3
+        },
+        "core": "earth",
+        "anchor": "fire",
+        "dominant": "water",
+        "energy_state": "depleted"
+      },
+      "engine_output": {
+        "year": "壬寅",
+        "month": "壬子",
+        "day": "己未",
+        "hour": "丁卯"
+      },
+      "independent_output": {
+        "year": "壬寅",
+        "month": "壬子",
+        "day": "己未",
+        "hour": "丁卯"
+      },
+      "independent_method": "JDN day pillar + Meeus apparent solar longitude + 五虎遁/五鼠遁",
+      "governing_solar_term": {
+        "name": "Daxue",
+        "at_utc8": "2022-12-07T03:40:24.154Z",
+        "solar_year": 2022
+      },
+      "pass": {
+        "pillars": true,
+        "independent": true,
+        "elements": true
+      }
+    },
+    {
+      "id": 5,
+      "note": "EST/EDT fall-back ambiguity",
+      "input": {
+        "local_datetime": "2023-11-05T01:30:00",
+        "city": "New York City",
+        "country": "United States",
+        "admin1": "New York",
+        "latitude": 40.7143,
+        "longitude": -74.006,
+        "timezone": "America/New_York"
+      },
+      "true_solar_time": "2023-11-05 00:50",
+      "correction": {
+        "dst_offset_minutes": 60,
+        "standard_offset_hours": -5,
+        "meridian_longitude": -75,
+        "equation_of_time_minutes": 16.32,
+        "longitude_shift_minutes": 3.98,
+        "total_shift_minutes": 20.29
+      },
+      "expected": {
+        "pillars": {
+          "year": "癸卯",
+          "month": "壬戌",
+          "day": "丁卯",
+          "hour": "庚子"
+        },
+        "elements": {
+          "wood": 24.4,
+          "fire": 14.4,
+          "earth": 12.2,
+          "metal": 14.4,
+          "water": 34.4
+        },
+        "core": "fire",
+        "anchor": "fire",
+        "dominant": "water",
+        "energy_state": "depleted"
+      },
+      "engine_output": {
+        "year": "癸卯",
+        "month": "壬戌",
+        "day": "丁卯",
+        "hour": "庚子"
+      },
+      "independent_output": {
+        "year": "癸卯",
+        "month": "壬戌",
+        "day": "丁卯",
+        "hour": "庚子"
+      },
+      "independent_method": "JDN day pillar + Meeus apparent solar longitude + 五虎遁/五鼠遁",
+      "governing_solar_term": {
+        "name": "Hanlu",
+        "at_utc8": "2023-10-08T13:10:48.069Z",
+        "solar_year": 2023
+      },
+      "pass": {
+        "pillars": true,
+        "independent": true,
+        "elements": true
+      }
+    },
+    {
+      "id": 6,
+      "note": "GMT",
+      "input": {
+        "local_datetime": "2000-01-01T12:00:00",
+        "city": "London",
+        "country": "United Kingdom",
+        "admin1": "England",
+        "latitude": 51.5085,
+        "longitude": -0.1257,
+        "timezone": "Europe/London"
+      },
+      "true_solar_time": "2000-01-01 11:56",
+      "correction": {
+        "dst_offset_minutes": 0,
+        "standard_offset_hours": 0,
+        "meridian_longitude": 0,
+        "equation_of_time_minutes": -2.9,
+        "longitude_shift_minutes": -0.5,
+        "total_shift_minutes": -3.41
+      },
+      "expected": {
+        "pillars": {
+          "year": "己卯",
+          "month": "丙子",
+          "day": "戊午",
+          "hour": "戊午"
+        },
+        "elements": {
+          "wood": 12.2,
+          "fire": 35.6,
+          "earth": 40,
+          "metal": 0,
+          "water": 12.2
+        },
+        "core": "earth",
+        "anchor": "metal",
+        "dominant": "earth",
+        "energy_state": "abundant"
+      },
+      "engine_output": {
+        "year": "己卯",
+        "month": "丙子",
+        "day": "戊午",
+        "hour": "戊午"
+      },
+      "independent_output": {
+        "year": "己卯",
+        "month": "丙子",
+        "day": "戊午",
+        "hour": "戊午"
+      },
+      "independent_method": "JDN day pillar + Meeus apparent solar longitude + 五虎遁/五鼠遁",
+      "governing_solar_term": {
+        "name": "Daxue",
+        "at_utc8": "1999-12-07T13:43:55.673Z",
+        "solar_year": 1999
+      },
+      "pass": {
+        "pillars": true,
+        "independent": true,
+        "elements": true
+      }
+    },
+    {
+      "id": 7,
+      "note": "BST (DST active)",
+      "input": {
+        "local_datetime": "1975-08-15T04:45:00",
+        "city": "London",
+        "country": "United Kingdom",
+        "admin1": "England",
+        "latitude": 51.5085,
+        "longitude": -0.1257,
+        "timezone": "Europe/London"
+      },
+      "true_solar_time": "1975-08-15 03:39",
+      "correction": {
+        "dst_offset_minutes": 60,
+        "standard_offset_hours": 0,
+        "meridian_longitude": 0,
+        "equation_of_time_minutes": -4.94,
+        "longitude_shift_minutes": -0.5,
+        "total_shift_minutes": -5.44
+      },
+      "expected": {
+        "pillars": {
+          "year": "乙卯",
+          "month": "甲申",
+          "day": "癸巳",
+          "hour": "甲寅"
+        },
+        "elements": {
+          "wood": 51,
+          "fire": 13.7,
+          "earth": 8.8,
+          "metal": 13.7,
+          "water": 12.7
+        },
+        "core": "water",
+        "anchor": "water",
+        "dominant": "wood",
+        "energy_state": "depleted"
+      },
+      "engine_output": {
+        "year": "乙卯",
+        "month": "甲申",
+        "day": "癸巳",
+        "hour": "甲寅"
+      },
+      "independent_output": {
+        "year": "乙卯",
+        "month": "甲申",
+        "day": "癸巳",
+        "hour": "甲寅"
+      },
+      "independent_method": "JDN day pillar + Meeus apparent solar longitude + 五虎遁/五鼠遁",
+      "governing_solar_term": {
+        "name": "Liqiu",
+        "at_utc8": "1975-08-08T03:49:40.183Z",
+        "solar_year": 1975
+      },
+      "pass": {
+        "pillars": true,
+        "independent": true,
+        "elements": true
+      }
+    },
+    {
+      "id": 8,
+      "note": "CEST, summer solstice",
+      "input": {
+        "local_datetime": "2010-06-21T18:00:00",
+        "city": "Paris",
+        "country": "France",
+        "admin1": "Île-de-France",
+        "latitude": 48.8534,
+        "longitude": 2.3488,
+        "timezone": "Europe/Paris"
+      },
+      "true_solar_time": "2010-06-21 16:08",
+      "correction": {
+        "dst_offset_minutes": 60,
+        "standard_offset_hours": 1,
+        "meridian_longitude": 15,
+        "equation_of_time_minutes": -1.37,
+        "longitude_shift_minutes": -50.6,
+        "total_shift_minutes": -51.98
+      },
+      "expected": {
+        "pillars": {
+          "year": "庚寅",
+          "month": "壬午",
+          "day": "壬寅",
+          "hour": "戊申"
+        },
+        "elements": {
+          "wood": 21,
+          "fire": 16.2,
+          "earth": 21,
+          "metal": 20,
+          "water": 21.9
+        },
+        "core": "water",
+        "anchor": "metal",
+        "dominant": "water",
+        "energy_state": "depleted"
+      },
+      "engine_output": {
+        "year": "庚寅",
+        "month": "壬午",
+        "day": "壬寅",
+        "hour": "戊申"
+      },
+      "independent_output": {
+        "year": "庚寅",
+        "month": "壬午",
+        "day": "壬寅",
+        "hour": "戊申"
+      },
+      "independent_method": "JDN day pillar + Meeus apparent solar longitude + 五虎遁/五鼠遁",
+      "governing_solar_term": {
+        "name": "Mangzhong",
+        "at_utc8": "2010-06-05T18:45:08.728Z",
+        "solar_year": 2010
+      },
+      "pass": {
+        "pillars": true,
+        "independent": true,
+        "elements": true
+      }
+    },
+    {
+      "id": 9,
+      "note": "CET, winter solstice",
+      "input": {
+        "local_datetime": "2010-12-21T18:00:00",
+        "city": "Paris",
+        "country": "France",
+        "admin1": "Île-de-France",
+        "latitude": 48.8534,
+        "longitude": 2.3488,
+        "timezone": "Europe/Paris"
+      },
+      "true_solar_time": "2010-12-21 17:11",
+      "correction": {
+        "dst_offset_minutes": 0,
+        "standard_offset_hours": 1,
+        "meridian_longitude": 15,
+        "equation_of_time_minutes": 2.05,
+        "longitude_shift_minutes": -50.6,
+        "total_shift_minutes": -48.55
+      },
+      "expected": {
+        "pillars": {
+          "year": "庚寅",
+          "month": "戊子",
+          "day": "乙巳",
+          "hour": "乙酉"
+        },
+        "elements": {
+          "wood": 32.3,
+          "fire": 14.6,
+          "earth": 16.7,
+          "metal": 25,
+          "water": 11.5
+        },
+        "core": "wood",
+        "anchor": "fire",
+        "dominant": "wood",
+        "energy_state": "abundant"
+      },
+      "engine_output": {
+        "year": "庚寅",
+        "month": "戊子",
+        "day": "乙巳",
+        "hour": "乙酉"
+      },
+      "independent_output": {
+        "year": "庚寅",
+        "month": "戊子",
+        "day": "乙巳",
+        "hour": "乙酉"
+      },
+      "independent_method": "JDN day pillar + Meeus apparent solar longitude + 五虎遁/五鼠遁",
+      "governing_solar_term": {
+        "name": "Daxue",
+        "at_utc8": "2010-12-07T05:35:42.691Z",
+        "solar_year": 2010
+      },
+      "pass": {
+        "pillars": true,
+        "independent": true,
+        "elements": true
+      }
+    },
+    {
+      "id": 10,
+      "note": "CEST",
+      "input": {
+        "local_datetime": "1995-09-09T09:09:00",
+        "city": "Berlin",
+        "country": "Germany",
+        "admin1": "State of Berlin",
+        "latitude": 52.5244,
+        "longitude": 13.4105,
+        "timezone": "Europe/Berlin"
+      },
+      "true_solar_time": "1995-09-09 08:05",
+      "correction": {
+        "dst_offset_minutes": 60,
+        "standard_offset_hours": 1,
+        "meridian_longitude": 15,
+        "equation_of_time_minutes": 2.36,
+        "longitude_shift_minutes": -6.36,
+        "total_shift_minutes": -4
+      },
+      "expected": {
+        "pillars": {
+          "year": "乙亥",
+          "month": "乙酉",
+          "day": "癸卯",
+          "hour": "丙辰"
+        },
+        "elements": {
+          "wood": 39.8,
+          "fire": 10.8,
+          "earth": 11.8,
+          "metal": 11.8,
+          "water": 25.8
+        },
+        "core": "water",
+        "anchor": "fire",
+        "dominant": "wood",
+        "energy_state": "abundant"
+      },
+      "engine_output": {
+        "year": "乙亥",
+        "month": "乙酉",
+        "day": "癸卯",
+        "hour": "丙辰"
+      },
+      "independent_output": {
+        "year": "乙亥",
+        "month": "乙酉",
+        "day": "癸卯",
+        "hour": "丙辰"
+      },
+      "independent_method": "JDN day pillar + Meeus apparent solar longitude + 五虎遁/五鼠遁",
+      "governing_solar_term": {
+        "name": "Bailu",
+        "at_utc8": "1995-09-08T02:44:51.550Z",
+        "solar_year": 1995
+      },
+      "pass": {
+        "pillars": true,
+        "independent": true,
+        "elements": true
+      }
+    },
+    {
+      "id": 11,
+      "note": "CET",
+      "input": {
+        "local_datetime": "2022-03-15T07:20:00",
+        "city": "Madrid",
+        "country": "Spain",
+        "admin1": "Madrid",
+        "latitude": 40.4165,
+        "longitude": -3.7026,
+        "timezone": "Europe/Madrid"
+      },
+      "true_solar_time": "2022-03-15 05:55",
+      "correction": {
+        "dst_offset_minutes": 0,
+        "standard_offset_hours": 1,
+        "meridian_longitude": 15,
+        "equation_of_time_minutes": -9.69,
+        "longitude_shift_minutes": -74.81,
+        "total_shift_minutes": -84.5
+      },
+      "expected": {
+        "pillars": {
+          "year": "壬寅",
+          "month": "癸卯",
+          "day": "丁卯",
+          "hour": "癸卯"
+        },
+        "elements": {
+          "wood": 48.9,
+          "fire": 14.4,
+          "earth": 3.3,
+          "metal": 0,
+          "water": 33.3
+        },
+        "core": "fire",
+        "anchor": "metal",
+        "dominant": "wood",
+        "energy_state": "abundant"
+      },
+      "engine_output": {
+        "year": "壬寅",
+        "month": "癸卯",
+        "day": "丁卯",
+        "hour": "癸卯"
+      },
+      "independent_output": {
+        "year": "壬寅",
+        "month": "癸卯",
+        "day": "丁卯",
+        "hour": "癸卯"
+      },
+      "independent_method": "JDN day pillar + Meeus apparent solar longitude + 五虎遁/五鼠遁",
+      "governing_solar_term": {
+        "name": "Jingzhe",
+        "at_utc8": "2022-03-05T14:41:25.032Z",
+        "solar_year": 2022
+      },
+      "pass": {
+        "pillars": true,
+        "independent": true,
+        "elements": true
+      }
+    },
+    {
+      "id": 12,
+      "note": "AEDT, DST ends that night",
+      "input": {
+        "local_datetime": "1988-04-02T22:10:00",
+        "city": "Sydney",
+        "country": "Australia",
+        "admin1": "New South Wales",
+        "latitude": -33.8678,
+        "longitude": 151.2073,
+        "timezone": "Australia/Sydney"
+      },
+      "true_solar_time": "1988-04-02 22:11",
+      "correction": {
+        "dst_offset_minutes": 0,
+        "standard_offset_hours": 10,
+        "meridian_longitude": 150,
+        "equation_of_time_minutes": -3.62,
+        "longitude_shift_minutes": 4.83,
+        "total_shift_minutes": 1.21
+      },
+      "expected": {
+        "pillars": {
+          "year": "戊辰",
+          "month": "乙卯",
+          "day": "丁亥",
+          "hour": "辛亥"
+        },
+        "elements": {
+          "wood": 31.2,
+          "fire": 10.4,
+          "earth": 21.9,
+          "metal": 10.4,
+          "water": 26
+        },
+        "core": "fire",
+        "anchor": "metal",
+        "dominant": "wood",
+        "energy_state": "abundant"
+      },
+      "engine_output": {
+        "year": "戊辰",
+        "month": "乙卯",
+        "day": "丁亥",
+        "hour": "辛亥"
+      },
+      "independent_output": {
+        "year": "戊辰",
+        "month": "乙卯",
+        "day": "丁亥",
+        "hour": "辛亥"
+      },
+      "independent_method": "JDN day pillar + Meeus apparent solar longitude + 五虎遁/五鼠遁",
+      "governing_solar_term": {
+        "name": "Jingzhe",
+        "at_utc8": "1988-03-05T08:41:40.981Z",
+        "solar_year": 1988
+      },
+      "pass": {
+        "pillars": true,
+        "independent": true,
+        "elements": true
+      }
+    },
+    {
+      "id": 13,
+      "note": "AEDT (southern summer)",
+      "input": {
+        "local_datetime": "2001-12-25T11:00:00",
+        "city": "Sydney",
+        "country": "Australia",
+        "admin1": "New South Wales",
+        "latitude": -33.8678,
+        "longitude": 151.2073,
+        "timezone": "Australia/Sydney"
+      },
+      "true_solar_time": "2001-12-25 10:05",
+      "correction": {
+        "dst_offset_minutes": 60,
+        "standard_offset_hours": 10,
+        "meridian_longitude": 150,
+        "equation_of_time_minutes": 0.35,
+        "longitude_shift_minutes": 4.83,
+        "total_shift_minutes": 5.18
+      },
+      "expected": {
+        "pillars": {
+          "year": "辛巳",
+          "month": "庚子",
+          "day": "壬戌",
+          "hour": "乙巳"
+        },
+        "elements": {
+          "wood": 9.8,
+          "fire": 24.5,
+          "earth": 16.7,
+          "metal": 28.4,
+          "water": 20.6
+        },
+        "core": "water",
+        "anchor": "wood",
+        "dominant": "metal",
+        "energy_state": "abundant"
+      },
+      "engine_output": {
+        "year": "辛巳",
+        "month": "庚子",
+        "day": "壬戌",
+        "hour": "乙巳"
+      },
+      "independent_output": {
+        "year": "辛巳",
+        "month": "庚子",
+        "day": "壬戌",
+        "hour": "乙巳"
+      },
+      "independent_method": "JDN day pillar + Meeus apparent solar longitude + 五虎遁/五鼠遁",
+      "governing_solar_term": {
+        "name": "Daxue",
+        "at_utc8": "2001-12-07T01:24:09.297Z",
+        "solar_year": 2001
+      },
+      "pass": {
+        "pillars": true,
+        "independent": true,
+        "elements": true
+      }
+    },
+    {
+      "id": 14,
+      "note": "AEST, southern winter",
+      "input": {
+        "local_datetime": "1969-07-20T20:17:00",
+        "city": "Melbourne",
+        "country": "Australia",
+        "admin1": "Victoria",
+        "latitude": -37.814,
+        "longitude": 144.9633,
+        "timezone": "Australia/Melbourne"
+      },
+      "true_solar_time": "1969-07-20 19:50",
+      "correction": {
+        "dst_offset_minutes": 0,
+        "standard_offset_hours": 10,
+        "meridian_longitude": 150,
+        "equation_of_time_minutes": -6.3,
+        "longitude_shift_minutes": -20.15,
+        "total_shift_minutes": -26.45
+      },
+      "expected": {
+        "pillars": {
+          "year": "己酉",
+          "month": "辛未",
+          "day": "丙申",
+          "hour": "戊戌"
+        },
+        "elements": {
+          "wood": 2.9,
+          "fire": 15.7,
+          "earth": 44.1,
+          "metal": 34.3,
+          "water": 2.9
+        },
+        "core": "fire",
+        "anchor": "wood",
+        "dominant": "earth",
+        "energy_state": "depleted"
+      },
+      "engine_output": {
+        "year": "己酉",
+        "month": "辛未",
+        "day": "丙申",
+        "hour": "戊戌"
+      },
+      "independent_output": {
+        "year": "己酉",
+        "month": "辛未",
+        "day": "丙申",
+        "hour": "戊戌"
+      },
+      "independent_method": "JDN day pillar + Meeus apparent solar longitude + 五虎遁/五鼠遁",
+      "governing_solar_term": {
+        "name": "Xiaoshu",
+        "at_utc8": "1969-07-07T07:22:13.622Z",
+        "solar_year": 1969
+      },
+      "pass": {
+        "pillars": true,
+        "independent": true,
+        "elements": true
+      }
+    },
+    {
+      "id": 15,
+      "note": "NZDT",
+      "input": {
+        "local_datetime": "1993-10-30T16:00:00",
+        "city": "Auckland",
+        "country": "New Zealand",
+        "admin1": "Auckland",
+        "latitude": -36.8485,
+        "longitude": 174.7635,
+        "timezone": "Pacific/Auckland"
+      },
+      "true_solar_time": "1993-10-30 14:55",
+      "correction": {
+        "dst_offset_minutes": 60,
+        "standard_offset_hours": 12,
+        "meridian_longitude": 180,
+        "equation_of_time_minutes": 16.34,
+        "longitude_shift_minutes": -20.95,
+        "total_shift_minutes": -4.6
+      },
+      "expected": {
+        "pillars": {
+          "year": "癸酉",
+          "month": "壬戌",
+          "day": "甲申",
+          "hour": "辛未"
+        },
+        "elements": {
+          "wood": 12.7,
+          "fire": 5.9,
+          "earth": 24.5,
+          "metal": 34.3,
+          "water": 22.5
+        },
+        "core": "wood",
+        "anchor": "wood",
+        "dominant": "metal",
+        "energy_state": "depleted"
+      },
+      "engine_output": {
+        "year": "癸酉",
+        "month": "壬戌",
+        "day": "甲申",
+        "hour": "辛未"
+      },
+      "independent_output": {
+        "year": "癸酉",
+        "month": "壬戌",
+        "day": "甲申",
+        "hour": "辛未"
+      },
+      "independent_method": "JDN day pillar + Meeus apparent solar longitude + 五虎遁/五鼠遁",
+      "governing_solar_term": {
+        "name": "Hanlu",
+        "at_utc8": "1993-10-08T06:39:51.251Z",
+        "solar_year": 1993
+      },
+      "pass": {
+        "pillars": true,
+        "independent": true,
+        "elements": true
+      }
+    },
+    {
+      "id": 16,
+      "note": "NZDT, DST ends Apr 5",
+      "input": {
+        "local_datetime": "2015-04-01T05:30:00",
+        "city": "Auckland",
+        "country": "New Zealand",
+        "admin1": "Auckland",
+        "latitude": -36.8485,
+        "longitude": 174.7635,
+        "timezone": "Pacific/Auckland"
+      },
+      "true_solar_time": "2015-04-01 04:04",
+      "correction": {
+        "dst_offset_minutes": 60,
+        "standard_offset_hours": 12,
+        "meridian_longitude": 180,
+        "equation_of_time_minutes": -4.48,
+        "longitude_shift_minutes": -20.95,
+        "total_shift_minutes": -25.42
+      },
+      "expected": {
+        "pillars": {
+          "year": "乙未",
+          "month": "己卯",
+          "day": "丁未",
+          "hour": "壬寅"
+        },
+        "elements": {
+          "wood": 37.3,
+          "fire": 18.6,
+          "earth": 34.3,
+          "metal": 0,
+          "water": 9.8
+        },
+        "core": "fire",
+        "anchor": "metal",
+        "dominant": "wood",
+        "energy_state": "abundant"
+      },
+      "engine_output": {
+        "year": "乙未",
+        "month": "己卯",
+        "day": "丁未",
+        "hour": "壬寅"
+      },
+      "independent_output": {
+        "year": "乙未",
+        "month": "己卯",
+        "day": "丁未",
+        "hour": "壬寅"
+      },
+      "independent_method": "JDN day pillar + Meeus apparent solar longitude + 五虎遁/五鼠遁",
+      "governing_solar_term": {
+        "name": "Jingzhe",
+        "at_utc8": "2015-03-05T21:49:49.488Z",
+        "solar_year": 2015
+      },
+      "pass": {
+        "pillars": true,
+        "independent": true,
+        "elements": true
+      }
+    },
+    {
+      "id": 17,
+      "note": "EDT",
+      "input": {
+        "local_datetime": "1999-07-04T13:45:00",
+        "city": "Toronto",
+        "country": "Canada",
+        "admin1": "Ontario",
+        "latitude": 43.7064,
+        "longitude": -79.3986,
+        "timezone": "America/Toronto"
+      },
+      "true_solar_time": "1999-07-04 12:23",
+      "correction": {
+        "dst_offset_minutes": 60,
+        "standard_offset_hours": -5,
+        "meridian_longitude": -75,
+        "equation_of_time_minutes": -4.06,
+        "longitude_shift_minutes": -17.59,
+        "total_shift_minutes": -21.65
+      },
+      "expected": {
+        "pillars": {
+          "year": "己卯",
+          "month": "庚午",
+          "day": "丁巳",
+          "hour": "丙午"
+        },
+        "elements": {
+          "wood": 11.5,
+          "fire": 55.2,
+          "earth": 19.8,
+          "metal": 13.5,
+          "water": 0
+        },
+        "core": "fire",
+        "anchor": "water",
+        "dominant": "fire",
+        "energy_state": "abundant"
+      },
+      "engine_output": {
+        "year": "己卯",
+        "month": "庚午",
+        "day": "丁巳",
+        "hour": "丙午"
+      },
+      "independent_output": {
+        "year": "己卯",
+        "month": "庚午",
+        "day": "丁巳",
+        "hour": "丙午"
+      },
+      "independent_method": "JDN day pillar + Meeus apparent solar longitude + 五虎遁/五鼠遁",
+      "governing_solar_term": {
+        "name": "Mangzhong",
+        "at_utc8": "1999-06-06T03:08:41.482Z",
+        "solar_year": 1999
+      },
+      "pass": {
+        "pillars": true,
+        "independent": true,
+        "elements": true
+      }
+    },
+    {
+      "id": 18,
+      "note": "EST",
+      "input": {
+        "local_datetime": "1999-02-04T13:45:00",
+        "city": "Toronto",
+        "country": "Canada",
+        "admin1": "Ontario",
+        "latitude": 43.7064,
+        "longitude": -79.3986,
+        "timezone": "America/Toronto"
+      },
+      "true_solar_time": "1999-02-04 13:13",
+      "correction": {
+        "dst_offset_minutes": 0,
+        "standard_offset_hours": -5,
+        "meridian_longitude": -75,
+        "equation_of_time_minutes": -13.62,
+        "longitude_shift_minutes": -17.59,
+        "total_shift_minutes": -31.22
+      },
+      "expected": {
+        "pillars": {
+          "year": "己卯",
+          "month": "丙寅",
+          "day": "丁亥",
+          "hour": "丁未"
+        },
+        "elements": {
+          "wood": 28.3,
+          "fire": 36.4,
+          "earth": 24.2,
+          "metal": 0,
+          "water": 11.1
+        },
+        "core": "fire",
+        "anchor": "metal",
+        "dominant": "fire",
+        "energy_state": "abundant"
+      },
+      "engine_output": {
+        "year": "己卯",
+        "month": "丙寅",
+        "day": "丁亥",
+        "hour": "丁未"
+      },
+      "independent_output": {
+        "year": "己卯",
+        "month": "丙寅",
+        "day": "丁亥",
+        "hour": "丁未"
+      },
+      "independent_method": "JDN day pillar + Meeus apparent solar longitude + 五虎遁/五鼠遁",
+      "governing_solar_term": {
+        "name": "Lichun",
+        "at_utc8": "1999-02-04T06:45:55.566Z",
+        "solar_year": 1999
+      },
+      "pass": {
+        "pillars": true,
+        "independent": true,
+        "elements": true
+      }
+    },
+    {
+      "id": 19,
+      "note": "CST, no DST",
+      "input": {
+        "local_datetime": "2008-08-08T20:00:00",
+        "city": "Beijing",
+        "country": "China",
+        "admin1": "Beijing",
+        "latitude": 39.9075,
+        "longitude": 116.3972,
+        "timezone": "Asia/Shanghai"
+      },
+      "true_solar_time": "2008-08-08 19:39",
+      "correction": {
+        "dst_offset_minutes": 0,
+        "standard_offset_hours": 8,
+        "meridian_longitude": 120,
+        "equation_of_time_minutes": -5.78,
+        "longitude_shift_minutes": -14.41,
+        "total_shift_minutes": -20.19
+      },
+      "expected": {
+        "pillars": {
+          "year": "戊子",
+          "month": "庚申",
+          "day": "庚辰",
+          "hour": "丙戌"
+        },
+        "elements": {
+          "wood": 2.9,
+          "fire": 12.7,
+          "earth": 34.3,
+          "metal": 33.3,
+          "water": 16.7
+        },
+        "core": "metal",
+        "anchor": "wood",
+        "dominant": "earth",
+        "energy_state": "abundant"
+      },
+      "engine_output": {
+        "year": "戊子",
+        "month": "庚申",
+        "day": "庚辰",
+        "hour": "丙戌"
+      },
+      "independent_output": {
+        "year": "戊子",
+        "month": "庚申",
+        "day": "庚辰",
+        "hour": "丙戌"
+      },
+      "independent_method": "JDN day pillar + Meeus apparent solar longitude + 五虎遁/五鼠遁",
+      "governing_solar_term": {
+        "name": "Liqiu",
+        "at_utc8": "2008-08-07T03:14:58.214Z",
+        "solar_year": 2008
+      },
+      "pass": {
+        "pillars": true,
+        "independent": true,
+        "elements": true
+      }
+    },
+    {
+      "id": 20,
+      "note": "leap day",
+      "input": {
+        "local_datetime": "2020-02-29T10:00:00",
+        "city": "Shanghai",
+        "country": "China",
+        "admin1": "Shanghai",
+        "latitude": 31.2222,
+        "longitude": 121.4581,
+        "timezone": "Asia/Shanghai"
+      },
+      "true_solar_time": "2020-02-29 09:52",
+      "correction": {
+        "dst_offset_minutes": 0,
+        "standard_offset_hours": 8,
+        "meridian_longitude": 120,
+        "equation_of_time_minutes": -12.92,
+        "longitude_shift_minutes": 5.83,
+        "total_shift_minutes": -7.08
+      },
+      "expected": {
+        "pillars": {
+          "year": "庚子",
+          "month": "戊寅",
+          "day": "壬寅",
+          "hour": "乙巳"
+        },
+        "elements": {
+          "wood": 31.4,
+          "fire": 16.7,
+          "earth": 18.6,
+          "metal": 12.7,
+          "water": 20.6
+        },
+        "core": "water",
+        "anchor": "metal",
+        "dominant": "wood",
+        "energy_state": "depleted"
+      },
+      "engine_output": {
+        "year": "庚子",
+        "month": "戊寅",
+        "day": "壬寅",
+        "hour": "乙巳"
+      },
+      "independent_output": {
+        "year": "庚子",
+        "month": "戊寅",
+        "day": "壬寅",
+        "hour": "乙巳"
+      },
+      "independent_method": "JDN day pillar + Meeus apparent solar longitude + 五虎遁/五鼠遁",
+      "governing_solar_term": {
+        "name": "Lichun",
+        "at_utc8": "2020-02-04T09:07:58.299Z",
+        "solar_year": 2020
+      },
+      "pass": {
+        "pillars": true,
+        "independent": true,
+        "elements": true
+      }
+    },
+    {
+      "id": 21,
+      "note": "JST",
+      "input": {
+        "local_datetime": "1997-05-05T03:00:00",
+        "city": "Tokyo",
+        "country": "Japan",
+        "admin1": "Tokyo",
+        "latitude": 35.6895,
+        "longitude": 139.6917,
+        "timezone": "Asia/Tokyo"
+      },
+      "true_solar_time": "1997-05-05 03:22",
+      "correction": {
+        "dst_offset_minutes": 0,
+        "standard_offset_hours": 9,
+        "meridian_longitude": 135,
+        "equation_of_time_minutes": 3.43,
+        "longitude_shift_minutes": 18.77,
+        "total_shift_minutes": 22.2
+      },
+      "expected": {
+        "pillars": {
+          "year": "丁丑",
+          "month": "甲辰",
+          "day": "丁未",
+          "hour": "壬寅"
+        },
+        "elements": {
+          "wood": 25,
+          "fire": 24.1,
+          "earth": 33.3,
+          "metal": 2.8,
+          "water": 14.8
+        },
+        "core": "fire",
+        "anchor": "metal",
+        "dominant": "earth",
+        "energy_state": "abundant"
+      },
+      "engine_output": {
+        "year": "丁丑",
+        "month": "甲辰",
+        "day": "丁未",
+        "hour": "壬寅"
+      },
+      "independent_output": {
+        "year": "丁丑",
+        "month": "甲辰",
+        "day": "丁未",
+        "hour": "壬寅"
+      },
+      "independent_method": "JDN day pillar + Meeus apparent solar longitude + 五虎遁/五鼠遁",
+      "governing_solar_term": {
+        "name": "Qingming",
+        "at_utc8": "1997-04-04T17:56:06.800Z",
+        "solar_year": 1997
+      },
+      "pass": {
+        "pillars": true,
+        "independent": true,
+        "elements": true
+      }
+    },
+    {
+      "id": 22,
+      "note": "KST",
+      "input": {
+        "local_datetime": "2012-11-11T11:11:00",
+        "city": "Seoul",
+        "country": "South Korea",
+        "admin1": "Seoul",
+        "latitude": 37.566,
+        "longitude": 126.9784,
+        "timezone": "Asia/Seoul"
+      },
+      "true_solar_time": "2012-11-11 10:54",
+      "correction": {
+        "dst_offset_minutes": 0,
+        "standard_offset_hours": 9,
+        "meridian_longitude": 135,
+        "equation_of_time_minutes": 15.63,
+        "longitude_shift_minutes": -32.09,
+        "total_shift_minutes": -16.45
+      },
+      "expected": {
+        "pillars": {
+          "year": "壬辰",
+          "month": "辛亥",
+          "day": "丙子",
+          "hour": "癸巳"
+        },
+        "elements": {
+          "wood": 6.1,
+          "fire": 21.2,
+          "earth": 14.1,
+          "metal": 13.1,
+          "water": 45.5
+        },
+        "core": "fire",
+        "anchor": "wood",
+        "dominant": "water",
+        "energy_state": "depleted"
+      },
+      "engine_output": {
+        "year": "壬辰",
+        "month": "辛亥",
+        "day": "丙子",
+        "hour": "癸巳"
+      },
+      "independent_output": {
+        "year": "壬辰",
+        "month": "辛亥",
+        "day": "丙子",
+        "hour": "癸巳"
+      },
+      "independent_method": "JDN day pillar + Meeus apparent solar longitude + 五虎遁/五鼠遁",
+      "governing_solar_term": {
+        "name": "Lidong",
+        "at_utc8": "2012-11-07T00:21:19.118Z",
+        "solar_year": 2012
+      },
+      "pass": {
+        "pillars": true,
+        "independent": true,
+        "elements": true
+      }
+    },
+    {
+      "id": 23,
+      "note": "SGT, equator",
+      "input": {
+        "local_datetime": "1980-03-21T21:00:00",
+        "city": "Singapore",
+        "country": "Singapore",
+        "admin1": "",
+        "latitude": 1.2897,
+        "longitude": 103.8501,
+        "timezone": "Asia/Singapore"
+      },
+      "true_solar_time": "1980-03-21 20:17",
+      "correction": {
+        "dst_offset_minutes": 0,
+        "standard_offset_hours": 7.5,
+        "meridian_longitude": 112.5,
+        "equation_of_time_minutes": -7.43,
+        "longitude_shift_minutes": -34.6,
+        "total_shift_minutes": -42.03
+      },
+      "expected": {
+        "pillars": {
+          "year": "庚申",
+          "month": "己卯",
+          "day": "癸巳",
+          "hour": "壬戌"
+        },
+        "elements": {
+          "wood": 10.8,
+          "fire": 13.7,
+          "earth": 26.5,
+          "metal": 26.5,
+          "water": 22.5
+        },
+        "core": "water",
+        "anchor": "wood",
+        "dominant": "earth",
+        "energy_state": "abundant"
+      },
+      "engine_output": {
+        "year": "庚申",
+        "month": "己卯",
+        "day": "癸巳",
+        "hour": "壬戌"
+      },
+      "independent_output": {
+        "year": "庚申",
+        "month": "己卯",
+        "day": "癸巳",
+        "hour": "壬戌"
+      },
+      "independent_method": "JDN day pillar + Meeus apparent solar longitude + 五虎遁/五鼠遁",
+      "governing_solar_term": {
+        "name": "Jingzhe",
+        "at_utc8": "1980-03-05T10:12:19.829Z",
+        "solar_year": 1980
+      },
+      "pass": {
+        "pillars": true,
+        "independent": true,
+        "elements": true
+      }
+    },
+    {
+      "id": 24,
+      "note": "GST",
+      "input": {
+        "local_datetime": "2018-06-15T14:00:00",
+        "city": "Dubai",
+        "country": "United Arab Emirates",
+        "admin1": "Dubai",
+        "latitude": 25.0773,
+        "longitude": 55.3093,
+        "timezone": "Asia/Dubai"
+      },
+      "true_solar_time": "2018-06-15 13:41",
+      "correction": {
+        "dst_offset_minutes": 0,
+        "standard_offset_hours": 4,
+        "meridian_longitude": 60,
+        "equation_of_time_minutes": -0.04,
+        "longitude_shift_minutes": -18.76,
+        "total_shift_minutes": -18.81
+      },
+      "expected": {
+        "pillars": {
+          "year": "戊戌",
+          "month": "戊午",
+          "day": "戊寅",
+          "hour": "己未"
+        },
+        "elements": {
+          "wood": 13.3,
+          "fire": 19,
+          "earth": 64.8,
+          "metal": 2.9,
+          "water": 0
+        },
+        "core": "earth",
+        "anchor": "water",
+        "dominant": "earth",
+        "energy_state": "abundant"
+      },
+      "engine_output": {
+        "year": "戊戌",
+        "month": "戊午",
+        "day": "戊寅",
+        "hour": "己未"
+      },
+      "independent_output": {
+        "year": "戊戌",
+        "month": "戊午",
+        "day": "戊寅",
+        "hour": "己未"
+      },
+      "independent_method": "JDN day pillar + Meeus apparent solar longitude + 五虎遁/五鼠遁",
+      "governing_solar_term": {
+        "name": "Mangzhong",
+        "at_utc8": "2018-06-05T17:22:04.668Z",
+        "solar_year": 2018
+      },
+      "pass": {
+        "pillars": true,
+        "independent": true,
+        "elements": true
+      }
+    },
+    {
+      "id": 25,
+      "note": "IST +5:30, late-Rat hour",
+      "input": {
+        "local_datetime": "1991-12-31T23:45:00",
+        "city": "Mumbai",
+        "country": "India",
+        "admin1": "Maharashtra",
+        "latitude": 19.0728,
+        "longitude": 72.8826,
+        "timezone": "Asia/Kolkata"
+      },
+      "true_solar_time": "1991-12-31 23:03",
+      "correction": {
+        "dst_offset_minutes": 0,
+        "standard_offset_hours": 5.5,
+        "meridian_longitude": 82.5,
+        "equation_of_time_minutes": -2.67,
+        "longitude_shift_minutes": -38.47,
+        "total_shift_minutes": -41.14
+      },
+      "expected": {
+        "pillars": {
+          "year": "辛未",
+          "month": "庚子",
+          "day": "丙子",
+          "hour": "戊子"
+        },
+        "elements": {
+          "wood": 3.3,
+          "fire": 14.4,
+          "earth": 23.3,
+          "metal": 22.2,
+          "water": 36.7
+        },
+        "core": "fire",
+        "anchor": "wood",
+        "dominant": "water",
+        "energy_state": "depleted"
+      },
+      "engine_output": {
+        "year": "辛未",
+        "month": "庚子",
+        "day": "丙子",
+        "hour": "戊子"
+      },
+      "independent_output": {
+        "year": "辛未",
+        "month": "庚子",
+        "day": "丙子",
+        "hour": "戊子"
+      },
+      "independent_method": "JDN day pillar + Meeus apparent solar longitude + 五虎遁/五鼠遁",
+      "governing_solar_term": {
+        "name": "Daxue",
+        "at_utc8": "1991-12-07T14:56:09.369Z",
+        "solar_year": 1991
+      },
+      "pass": {
+        "pillars": true,
+        "independent": true,
+        "elements": true
+      }
+    },
+    {
+      "id": 26,
+      "note": "SAST (southern summer, no DST)",
+      "input": {
+        "local_datetime": "2005-01-15T08:00:00",
+        "city": "Johannesburg",
+        "country": "South Africa",
+        "admin1": "Gauteng",
+        "latitude": -26.2023,
+        "longitude": 28.0436,
+        "timezone": "Africa/Johannesburg"
+      },
+      "true_solar_time": "2005-01-15 07:43",
+      "correction": {
+        "dst_offset_minutes": 0,
+        "standard_offset_hours": 2,
+        "meridian_longitude": 30,
+        "equation_of_time_minutes": -8.57,
+        "longitude_shift_minutes": -7.83,
+        "total_shift_minutes": -16.4
+      },
+      "expected": {
+        "pillars": {
+          "year": "甲申",
+          "month": "丁丑",
+          "day": "己亥",
+          "hour": "戊辰"
+        },
+        "elements": {
+          "wood": 15.2,
+          "fire": 9.5,
+          "earth": 42.9,
+          "metal": 13.3,
+          "water": 19
+        },
+        "core": "earth",
+        "anchor": "metal",
+        "dominant": "earth",
+        "energy_state": "abundant"
+      },
+      "engine_output": {
+        "year": "甲申",
+        "month": "丁丑",
+        "day": "己亥",
+        "hour": "戊辰"
+      },
+      "independent_output": {
+        "year": "甲申",
+        "month": "丁丑",
+        "day": "己亥",
+        "hour": "戊辰"
+      },
+      "independent_method": "JDN day pillar + Meeus apparent solar longitude + 五虎遁/五鼠遁",
+      "governing_solar_term": {
+        "name": "Xiaohan",
+        "at_utc8": "2005-01-05T06:03:04.581Z",
+        "solar_year": 2004
+      },
+      "pass": {
+        "pillars": true,
+        "independent": true,
+        "elements": true
+      }
+    },
+    {
+      "id": 27,
+      "note": "BRT, southern winter",
+      "input": {
+        "local_datetime": "2016-08-05T19:30:00",
+        "city": "Sao Paulo",
+        "country": "Brazil",
+        "admin1": "São Paulo",
+        "latitude": -23.5475,
+        "longitude": -46.6361,
+        "timezone": "America/Sao_Paulo"
+      },
+      "true_solar_time": "2016-08-05 19:17",
+      "correction": {
+        "dst_offset_minutes": 0,
+        "standard_offset_hours": -3,
+        "meridian_longitude": -45,
+        "equation_of_time_minutes": -6.13,
+        "longitude_shift_minutes": -6.54,
+        "total_shift_minutes": -12.67
+      },
+      "expected": {
+        "pillars": {
+          "year": "丙申",
+          "month": "乙未",
+          "day": "己未",
+          "hour": "甲戌"
+        },
+        "elements": {
+          "wood": 24.1,
+          "fire": 17.6,
+          "earth": 42.6,
+          "metal": 13,
+          "water": 2.8
+        },
+        "core": "earth",
+        "anchor": "water",
+        "dominant": "earth",
+        "energy_state": "abundant"
+      },
+      "engine_output": {
+        "year": "丙申",
+        "month": "乙未",
+        "day": "己未",
+        "hour": "甲戌"
+      },
+      "independent_output": {
+        "year": "丙申",
+        "month": "乙未",
+        "day": "己未",
+        "hour": "甲戌"
+      },
+      "independent_method": "JDN day pillar + Meeus apparent solar longitude + 五虎遁/五鼠遁",
+      "governing_solar_term": {
+        "name": "Xiaoshu",
+        "at_utc8": "2016-07-06T15:56:02.581Z",
+        "solar_year": 2016
+      },
+      "pass": {
+        "pillars": true,
+        "independent": true,
+        "elements": true
+      }
+    },
+    {
+      "id": 28,
+      "note": "CST",
+      "input": {
+        "local_datetime": "1978-02-28T12:00:00",
+        "city": "Mexico City",
+        "country": "Mexico",
+        "admin1": "Mexico City",
+        "latitude": 19.4285,
+        "longitude": -99.1277,
+        "timezone": "America/Mexico_City"
+      },
+      "true_solar_time": "1978-02-28 11:10",
+      "correction": {
+        "dst_offset_minutes": 0,
+        "standard_offset_hours": -6,
+        "meridian_longitude": -90,
+        "equation_of_time_minutes": -13.07,
+        "longitude_shift_minutes": -36.51,
+        "total_shift_minutes": -49.58
+      },
+      "expected": {
+        "pillars": {
+          "year": "戊午",
+          "month": "甲寅",
+          "day": "辛酉",
+          "hour": "甲午"
+        },
+        "elements": {
+          "wood": 32.3,
+          "fire": 26,
+          "earth": 19.8,
+          "metal": 21.9,
+          "water": 0
+        },
+        "core": "metal",
+        "anchor": "earth",
+        "dominant": "wood",
+        "energy_state": "depleted"
+      },
+      "engine_output": {
+        "year": "戊午",
+        "month": "甲寅",
+        "day": "辛酉",
+        "hour": "甲午"
+      },
+      "independent_output": {
+        "year": "戊午",
+        "month": "甲寅",
+        "day": "辛酉",
+        "hour": "甲午"
+      },
+      "independent_method": "JDN day pillar + Meeus apparent solar longitude + 五虎遁/五鼠遁",
+      "governing_solar_term": {
+        "name": "Lichun",
+        "at_utc8": "1978-02-04T04:21:20.944Z",
+        "solar_year": 1978
+      },
+      "pass": {
+        "pillars": true,
+        "independent": true,
+        "elements": true
+      }
+    },
+    {
+      "id": 29,
+      "note": "reference date, 甲子 day",
+      "input": {
+        "local_datetime": "1949-10-01T15:00:00",
+        "city": "Beijing",
+        "country": "China",
+        "admin1": "Beijing",
+        "latitude": 39.9075,
+        "longitude": 116.3972,
+        "timezone": "Asia/Shanghai"
+      },
+      "true_solar_time": "1949-10-01 14:56",
+      "correction": {
+        "dst_offset_minutes": 0,
+        "standard_offset_hours": 8,
+        "meridian_longitude": 120,
+        "equation_of_time_minutes": 10.51,
+        "longitude_shift_minutes": -14.41,
+        "total_shift_minutes": -3.9
+      },
+      "expected": {
+        "pillars": {
+          "year": "己丑",
+          "month": "癸酉",
+          "day": "甲子",
+          "hour": "辛未"
+        },
+        "elements": {
+          "wood": 13.5,
+          "fire": 3.1,
+          "earth": 33.3,
+          "metal": 25,
+          "water": 25
+        },
+        "core": "wood",
+        "anchor": "wood",
+        "dominant": "earth",
+        "energy_state": "depleted"
+      },
+      "engine_output": {
+        "year": "己丑",
+        "month": "癸酉",
+        "day": "甲子",
+        "hour": "辛未"
+      },
+      "independent_output": {
+        "year": "己丑",
+        "month": "癸酉",
+        "day": "甲子",
+        "hour": "辛未"
+      },
+      "independent_method": "JDN day pillar + Meeus apparent solar longitude + 五虎遁/五鼠遁",
+      "governing_solar_term": {
+        "name": "Bailu",
+        "at_utc8": "1949-09-07T23:48:08.565Z",
+        "solar_year": 1949
+      },
+      "pass": {
+        "pillars": true,
+        "independent": true,
+        "elements": true
+      }
+    },
+    {
+      "id": 30,
+      "note": "PST, midnight cusp",
+      "input": {
+        "local_datetime": "2026-01-01T00:05:00",
+        "city": "Los Angeles",
+        "country": "United States",
+        "admin1": "California",
+        "latitude": 34.0522,
+        "longitude": -118.2437,
+        "timezone": "America/Los_Angeles"
+      },
+      "true_solar_time": "2026-01-01 00:09",
+      "correction": {
+        "dst_offset_minutes": 0,
+        "standard_offset_hours": -8,
+        "meridian_longitude": -120,
+        "equation_of_time_minutes": -2.68,
+        "longitude_shift_minutes": 7.03,
+        "total_shift_minutes": 4.34
+      },
+      "expected": {
+        "pillars": {
+          "year": "乙巳",
+          "month": "戊子",
+          "day": "乙亥",
+          "hour": "丙子"
+        },
+        "elements": {
+          "wood": 24.7,
+          "fire": 22.6,
+          "earth": 14,
+          "metal": 3.2,
+          "water": 35.5
+        },
+        "core": "wood",
+        "anchor": "metal",
+        "dominant": "water",
+        "energy_state": "abundant"
+      },
+      "engine_output": {
+        "year": "乙巳",
+        "month": "戊子",
+        "day": "乙亥",
+        "hour": "丙子"
+      },
+      "independent_output": {
+        "year": "乙巳",
+        "month": "戊子",
+        "day": "乙亥",
+        "hour": "丙子"
+      },
+      "independent_method": "JDN day pillar + Meeus apparent solar longitude + 五虎遁/五鼠遁",
+      "governing_solar_term": {
+        "name": "Daxue",
+        "at_utc8": "2025-12-06T21:02:20.095Z",
+        "solar_year": 2025
+      },
+      "pass": {
+        "pillars": true,
+        "independent": true,
+        "elements": true
+      }
+    }
+  ]
+}

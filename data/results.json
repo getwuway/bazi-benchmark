@@ -1,0 +1,12 @@
+{
+  "generated": "2026-10-20",
+  "engine": "WuWay engine v1 (vendored under engine/)",
+  "summary": {
+    "cases": 30,
+    "pillars_agree": 30,
+    "independent_agree": 30,
+    "elements_within_tolerance": 30,
+    "all_pass": true,
+    "failures": []
+  }
+}

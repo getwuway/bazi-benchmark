@@ -1,0 +1,15 @@
+Reference chart data — CC BY 4.0
+=================================================
+
+The contents of data/reference-charts.json (birth inputs, expected pillars,
+element weights, and the independent implementation's output) are licensed under
+the Creative Commons Attribution 4.0 International License.
+
+You may copy, redistribute, remix and build on this data, including
+commercially, provided you give appropriate credit:
+
+    WuWay, "BaZi reference charts", https://getwuway.com/reference-charts
+
+Full licence text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+The code in engine/ and harness/ is under the MIT licence (see LICENSE).
